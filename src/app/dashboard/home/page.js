@@ -12,7 +12,7 @@ export default async function HomePage() {
       <div className="p-5">
         <div className="grid grid-col gap-8 lg:grid-cols-4 lg:gap-6">
           {products.slice(0, 4).map((product) => (
-            <div className="p-3 shadow">
+            <div className="p-3 shadow relative">
               <img
                 alt
                 src={product.image}
